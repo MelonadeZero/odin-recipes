@@ -1,0 +1,56 @@
+/*First step, create a navagation bar and have each one link
+ to a content page on site*/
+
+/*Reset browser padding settings, makes moving content
+less of a headache*/
+header{
+    margin: 0px;
+    padding: 0px;
+}
+/*designing top navigation bar box itself, adds a cool
+looking shadow and rounds the coorners to give it a 
+more friendly look */
+.navbar{
+    background-color: palegreen;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px lightgray;
+}
+/*Puts the navigation bar logo text up at the top and to 
+the left*/
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*Makes logo font big*/
+.navlogo{
+    font-size: 50px;
+    font-weight: 700px;
+    color: white;
+}
+/*removes the bullet points off the lists and puts them 
+up top and to the right, adds gap between words so they're
+easier to read, also made font big*/
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+/*removes that underline from the links, makes the texts
+white*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*highlights links upon mousehover*/
+li a.active{
+    background-color: palegreen;
+}
+li a:hover:not(.active){
+    background-color:green;
+}
