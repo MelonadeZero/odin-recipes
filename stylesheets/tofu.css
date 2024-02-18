@@ -5,5 +5,15 @@
 img{
     width: 500px;
     border-radius: 15px;
-    margin: 20px
+    margin: 20px;
+}
+.list-one{
+    margin-bottom: -140px;
+    margin-right: 200px;
+    margin-left: 310px;
+}
+.list-two{
+    margin-top: -240px;
+    margin-right: 300px;
+    margin-left:  20px
 }
